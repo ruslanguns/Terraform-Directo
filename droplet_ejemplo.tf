@@ -3,7 +3,7 @@ resource "digitalocean_droplet" "prueba" {
   image  = "ubuntu-20-04-x64"
   name   = "Prueba"
   region = "fra1"
-  size   = "s-1vcpu-2gb-amd"
+  size   = "s-1vcpu-1gb"
 }
 
 output "digitalocean_droplet" {
